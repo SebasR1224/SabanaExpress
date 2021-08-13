@@ -1,0 +1,122 @@
+.ctaSintoma{
+    display: inline-block;
+    padding: 7px 0;
+    width: 100px;
+    border: 1px solid #2682c3;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: #2682c3;
+
+}
+
+.modal-containerSintoma{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalSintoma{
+    width: 40%;
+    height: 50%;
+    background: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    transition: transform 0.8s;
+    transform: translateY(0%);
+    border-radius: 10px;
+
+}
+.closeSintoma{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: crimson;
+    color: #fff;
+    line-height: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.modal-close{
+    transform: translateY(-200%);
+}
+
+
+/* MODAL PARTE CUERPO */
+
+.ctaParte{
+    display: inline-block;
+    padding: 7px 0;
+    width: 100px;
+    border: 1px solid #2682c3;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: #2682c3;
+
+}
+
+.modal-containerParte{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalParte{
+    width: 40%;
+    height: 50%;
+    background: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    transition: transform 0.8s;
+    transform: translateY(0%);
+    border-radius: 10px;
+
+}
+.closeParte{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: crimson;
+    color: #fff;
+    line-height: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.modal-close{
+    transform: translateY(-200%);
+}
